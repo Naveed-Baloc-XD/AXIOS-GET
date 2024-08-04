@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .black-shadow {
+    box-shadow: 0 0 4px #4a4b4a, 0 0 10px #363836;
+  }
+  .text-shadow {
+    text-shadow: 0 0 4px #4a4b4a, 0 0 7px #3638364a;
+  }
+}
